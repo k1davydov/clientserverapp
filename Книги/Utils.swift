@@ -2,7 +2,7 @@
 //  Utils.swift
 //  Книги
 //
-//  Created by Yulia Zatonskaya on 02.08.2020.
+//  Created by Kirill Davydov on 02.08.2020.
 //  Copyright © 2020 Davydov. All rights reserved.
 //
 
