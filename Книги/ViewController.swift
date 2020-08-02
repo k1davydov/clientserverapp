@@ -5,7 +5,6 @@
 //  Created by Kirill Davydov on 29.07.2020.
 //  Copyright © 2020 Davydov. All rights reserved.
 //
-//
 
 import UIKit
 

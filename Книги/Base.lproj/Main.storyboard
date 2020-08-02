@@ -109,10 +109,10 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="OJ1-G0-Lot">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Umh-7L-GrH">
-                                                <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9An-eK-zY0">
                                                         <rect key="frame" x="15" y="15" width="384" height="300"/>
@@ -129,8 +129,8 @@
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hoU-9H-Gff">
-                                                        <rect key="frame" x="15" y="361" width="384" height="1124"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hoU-9H-Gff">
+                                                        <rect key="frame" x="15" y="361" width="384" height="624"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -139,11 +139,11 @@
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                                 <constraints>
                                                     <constraint firstItem="hoU-9H-Gff" firstAttribute="top" secondItem="btN-ya-9kS" secondAttribute="bottom" constant="3" id="1CB-yt-ECp"/>
+                                                    <constraint firstAttribute="height" constant="1000" id="2Qj-uX-v1V"/>
                                                     <constraint firstItem="9An-eK-zY0" firstAttribute="top" secondItem="Umh-7L-GrH" secondAttribute="top" constant="15" id="CP3-mA-fYy"/>
                                                     <constraint firstAttribute="bottom" secondItem="hoU-9H-Gff" secondAttribute="bottom" constant="15" id="H1p-bM-Fhg"/>
                                                     <constraint firstItem="hoU-9H-Gff" firstAttribute="leading" secondItem="Umh-7L-GrH" secondAttribute="leading" constant="15" id="PZQ-im-fPC"/>
                                                     <constraint firstItem="btN-ya-9kS" firstAttribute="top" secondItem="9An-eK-zY0" secondAttribute="bottom" constant="3" id="aie-41-9r0"/>
-                                                    <constraint firstAttribute="height" constant="1500" id="dhM-XQ-sRA"/>
                                                     <constraint firstAttribute="trailing" secondItem="hoU-9H-Gff" secondAttribute="trailing" constant="15" id="e0M-NE-kxd"/>
                                                     <constraint firstAttribute="trailing" secondItem="btN-ya-9kS" secondAttribute="trailing" constant="15" id="ebh-B7-eaq"/>
                                                     <constraint firstAttribute="trailing" secondItem="9An-eK-zY0" secondAttribute="trailing" constant="15" id="i6H-vf-ehT"/>
