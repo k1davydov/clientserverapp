@@ -16,7 +16,6 @@
 		5C30773424D1E546007473D2 /* BookStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C30773324D1E546007473D2 /* BookStruct.swift */; };
 		5C30773624D1E590007473D2 /* DescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C30773524D1E590007473D2 /* DescriptionViewController.swift */; };
 		5C49A6FE24D7233F006DA2C0 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C49A6FD24D7233F006DA2C0 /* Utils.swift */; };
-		5C49A70024D72456006DA2C0 /* BookRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C49A6FF24D72456006DA2C0 /* BookRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +30,6 @@
 		5C30773324D1E546007473D2 /* BookStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookStruct.swift; sourceTree = "<group>"; };
 		5C30773524D1E590007473D2 /* DescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionViewController.swift; sourceTree = "<group>"; };
 		5C49A6FD24D7233F006DA2C0 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
-		5C49A6FF24D72456006DA2C0 /* BookRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +64,6 @@
 			children = (
 				5C30773224D1DF34007473D2 /* Supporting Files */,
 				5C49A6FD24D7233F006DA2C0 /* Utils.swift */,
-				5C49A6FF24D72456006DA2C0 /* BookRepository.swift */,
 				5C30773324D1E546007473D2 /* BookStruct.swift */,
 				5C30773524D1E590007473D2 /* DescriptionViewController.swift */,
 				5C30772224D1DF0D007473D2 /* ViewController.swift */,
@@ -163,7 +160,6 @@
 				5C30772124D1DF0D007473D2 /* SceneDelegate.swift in Sources */,
 				5C30773624D1E590007473D2 /* DescriptionViewController.swift in Sources */,
 				5C30773424D1E546007473D2 /* BookStruct.swift in Sources */,
-				5C49A70024D72456006DA2C0 /* BookRepository.swift in Sources */,
 				5C49A6FE24D7233F006DA2C0 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
