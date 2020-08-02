@@ -16,6 +16,8 @@
 		5C30773424D1E546007473D2 /* BookStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C30773324D1E546007473D2 /* BookStruct.swift */; };
 		5C30773624D1E590007473D2 /* DescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C30773524D1E590007473D2 /* DescriptionViewController.swift */; };
 		5C49A6FE24D7233F006DA2C0 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C49A6FD24D7233F006DA2C0 /* Utils.swift */; };
+		5C9F49E424D74F7D00BF69C3 /* Main screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C9F49E324D74F7D00BF69C3 /* Main screen.png */; };
+		5C9F49E624D74F8F00BF69C3 /* Description screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C9F49E524D74F8F00BF69C3 /* Description screen.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		5C30773324D1E546007473D2 /* BookStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookStruct.swift; sourceTree = "<group>"; };
 		5C30773524D1E590007473D2 /* DescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionViewController.swift; sourceTree = "<group>"; };
 		5C49A6FD24D7233F006DA2C0 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		5C9F49E324D74F7D00BF69C3 /* Main screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Main screen.png"; sourceTree = "<group>"; };
+		5C9F49E524D74F8F00BF69C3 /* Description screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Description screen.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +74,8 @@
 				5C30772424D1DF0D007473D2 /* Main.storyboard */,
 				5C30772724D1DF0E007473D2 /* Assets.xcassets */,
 				5C30772924D1DF0E007473D2 /* LaunchScreen.storyboard */,
+				5C9F49E324D74F7D00BF69C3 /* Main screen.png */,
+				5C9F49E524D74F8F00BF69C3 /* Description screen.png */,
 				5C30772C24D1DF0E007473D2 /* Info.plist */,
 			);
 			path = "Книги";
@@ -143,8 +149,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C30772B24D1DF0E007473D2 /* LaunchScreen.storyboard in Resources */,
+				5C9F49E624D74F8F00BF69C3 /* Description screen.png in Resources */,
 				5C30772824D1DF0E007473D2 /* Assets.xcassets in Resources */,
 				5C30772624D1DF0D007473D2 /* Main.storyboard in Resources */,
+				5C9F49E424D74F7D00BF69C3 /* Main screen.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
